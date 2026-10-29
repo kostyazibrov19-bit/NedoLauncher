@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25) # Required for features like `CMAKE_MSVC_DEBUG_INFORMATION_FORMAT`
 
-project(Launcher LANGUAGES C CXX)
+project(NedoLauncher LANGUAGES C CXX)
 if(APPLE)
     enable_language(OBJC OBJCXX)
 endif()

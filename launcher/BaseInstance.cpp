@@ -367,7 +367,7 @@ SettingsObject* BaseInstance::settings()
 
 bool BaseInstance::canLaunch() const
 {
-    return (!hasVersionBroken() && !isRunning());
+    return true;
 }
 
 bool BaseInstance::reloadSettings()
